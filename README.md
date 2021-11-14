@@ -17,6 +17,16 @@
 首先一个可以肯定的是，最终的题目与最初的题目是存在差异的。大概是因为疫情耽误了很长的一段时间，所以导致最终的题应该是出现了修改题目的现象（可以从材料清单中出现了亚克力球但是最终却是没有和亚克力球相关的题目来推断）。这个部分的相关推测是针对为改变之前。
 材料清单中这些元器件是可能与电力电子方向题目有关的：
 
+1. 自带管理功能2000～3000mAh 18650型锂离子电池四节及相应电池盒
+2. 大功率电阻（10Ω/200W,50Ω/30W）
+3. 小容量三相自耦调压器三相隔离变压器（300VA，1:1）
+4. 工频电流互感器（10A）
+
+分析如下：
+
+1. 1节锂电池正常电压约为4伏左右，四节锂电池则是16伏。出现了锂电池则是意味着题目中会存在电池的充放电模块。
+2. 200W的10欧电阻，大约可承受电压为44.7伏，可承受电流为4.5A；30W的50欧电阻大约可承受电压为38V，可承受电流为1.29A.
+
 ## 最大功率点跟踪的实现
 
 目前，最大功率点跟踪（Maximum Power Point Tracking，简称 MPPT）的方法有很多，如恒定电压控制法，扰动观测法，导纳增量法，模糊控制法……但不同的方法在实际的使用中存在不同的优缺点。
@@ -32,7 +42,13 @@
 
 ## 相关资料合集
 
-[2021年全国电子设计大赛赛题](2021竞赛题目（本科）.zip)  
 [三端口DC-DC变换器（C题）](2021年C题.docx)  
+[2021年全国电子设计大赛赛题](2021竞赛题目（本科）.zip)  
+[2021年全国电子设计大赛器材清单](2021电赛器材清单.pdf)  
+
+[2013年全国电子设计大赛赛题全集](2013全国电子设计大赛题目.pdf)  
+[2015年全国电子设计大赛赛题全集](2015全国电子设计大赛题目.pdf)  
+
+ 
 [几种光伏系统 MPPT 方法的分析比较及改进](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2007&filename=DLDZ200705001&uniplatform=NZKPT&v=ndG04dNQ4IB2BXtqVhJDjdtiktz7IKgJVPT-1DynU24uyqaxw1huS4L0oKLHgF_T )  
 [基于改进电导增量法的光伏MPPT控制](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2021&filename=XBDJ202109008&uniplatform=NZKPT&v=Is2N8VyAT6BkXoAIJiStBTJwWZPgwUxfGJ8AQkMAMvQ2WkwZNbvYGPrlSDIF8QmZ)  
