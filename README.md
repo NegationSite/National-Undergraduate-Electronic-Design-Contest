@@ -87,5 +87,5 @@ $$ \mathbf{U}_S=\frac{\mathbf{U}_I}{2} $$
 [MOS管驱动电路](MOS管驱动.png)  
 [电压电流检测](电压电流检测.png)  
 
-[几种光伏系统 MPPT 方法的分析比较及改进](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2007&filename=DLDZ200705001&uniplatform=NZKPT&v=ndG04dNQ4IB2BXtqVhJDjdtiktz7IKgJVPT-1DynU24uyqaxw1huS4L0oKLHgF_T)
+[几种光伏系统 MPPT 方法的分析比较及改进](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2007&filename=DLDZ200705001&uniplatform=NZKPT&v=ndG04dNQ4IB2BXtqVhJDjdtiktz7IKgJVPT-1DynU24uyqaxw1huS4L0oKLHgF_T)  
 [基于改进电导增量法的光伏MPPT控制](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2021&filename=XBDJ202109008&uniplatform=NZKPT&v=Is2N8VyAT6BkXoAIJiStBTJwWZPgwUxfGJ8AQkMAMvQ2WkwZNbvYGPrlSDIF8QmZ)
